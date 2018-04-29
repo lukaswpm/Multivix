@@ -1,0 +1,20 @@
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\bin\Debug\Communication.exe.config
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\bin\Debug\Communication.exe
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\bin\Debug\Communication.pdb
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.csprojResolveAssemblyReference.cache
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.Form1.resources
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.Properties.Resources.resources
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.csproj.GenerateResource.cache
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.csproj.CoreCompileInputs.cache
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.exe
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Communication\obj\Debug\Communication.pdb
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\bin\Debug\Communication.exe.config
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\bin\Debug\Communication.exe
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\bin\Debug\Communication.pdb
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.csprojResolveAssemblyReference.cache
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.Form1.resources
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.Properties.Resources.resources
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.csproj.GenerateResource.cache
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.csproj.CoreCompileInputs.cache
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.exe
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Communication\obj\Debug\Communication.pdb

@@ -1,0 +1,19 @@
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\bin\Debug\Server.exe.config
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\bin\Debug\Server.exe
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\bin\Debug\Server.pdb
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\bin\Debug\MySql.Data.dll
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\bin\Debug\MySql.Data.xml
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\obj\Debug\Server.exe
+C:\Users\multivix.75JQ1P1\source\repos\Communication\Server\obj\Debug\Server.pdb
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\bin\Debug\Server.exe.config
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\bin\Debug\Server.exe
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\bin\Debug\Server.pdb
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\bin\Debug\MySql.Data.xml
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\obj\Debug\Server.csproj.CopyComplete
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\obj\Debug\Server.exe
+C:\Users\lukas\MULTIVIX\Sistemas Operacionais\Trabalho\Communication\Server\obj\Debug\Server.pdb

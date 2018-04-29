@@ -1,0 +1,5 @@
+User: 
+DateTime: 15/04/2018 12:17:32
+OS: Windows 8
+Error: Não é possível acessar um objeto descartado.
+Nome do objeto: 'System.Net.Sockets.Socket'.
