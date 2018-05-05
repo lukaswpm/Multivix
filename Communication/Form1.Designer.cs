@@ -43,6 +43,7 @@
             this.txtTo = new System.Windows.Forms.TextBox();
             this.txtMsg = new System.Windows.Forms.TextBox();
             this.btnSend = new System.Windows.Forms.Button();
+            this.listView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // txtServer
@@ -173,11 +174,20 @@
             this.btnSend.UseVisualStyleBackColor = true;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
+            // listView
+            // 
+            this.listView.Location = new System.Drawing.Point(742, 54);
+            this.listView.Name = "listView";
+            this.listView.Size = new System.Drawing.Size(188, 400);
+            this.listView.TabIndex = 15;
+            this.listView.UseCompatibleStateImageBehavior = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(748, 466);
+            this.ClientSize = new System.Drawing.Size(1055, 466);
+            this.Controls.Add(this.listView);
             this.Controls.Add(this.btnSend);
             this.Controls.Add(this.txtMsg);
             this.Controls.Add(this.txtTo);
@@ -220,6 +230,7 @@
         private System.Windows.Forms.TextBox txtTo;
         private System.Windows.Forms.TextBox txtMsg;
         private System.Windows.Forms.Button btnSend;
+        private System.Windows.Forms.ListView listView;
     }
 }
 

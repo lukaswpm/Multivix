@@ -31,6 +31,7 @@ namespace Server
         private static Thread thListener;
         private static Hashtable clients;
         private static int Buffer;
+        private static Mutex mutexx;
 
         public static int Port { get { return ServerPort; } set { ServerPort = value; } }
         public static int Port_Client { get {return portClient; } set { portClient = value; } }
@@ -42,6 +43,7 @@ namespace Server
         public static Thread thListen { get { return thListener; } set { thListener = value; } }
         public static Hashtable clientsList { get { return clients; } set { clients = value; } }
         public static int BufferSize { get { return Buffer; } set { Buffer = value; } }
+        public static Mutex mutex { get { return mutexx; } set { mutexx = value; } }
 
         //Files
         private static string Error_Log_Path;

@@ -52,6 +52,7 @@
     <Compile Include="Errors.cs" />
     <Compile Include="Files.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="Mutexx.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

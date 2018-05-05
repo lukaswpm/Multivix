@@ -66,14 +66,14 @@ namespace Server
         {
             try
             {
-                Console.WriteLine("Starting listening at port " + Global.Port + "...");
+                Console.WriteLine("Starting chat at port " + Global.Port + "...");
                 Global.tcpListener = new TcpListener(IPAddress.Parse(Global.IPAddress), Global.Port);
                 Global.tcpClient = default(TcpClient);
                 int counter = 0;
                 Global.tcpListener.Start();
                 Console.WriteLine("Status:       Running!");
                 Console.WriteLine("IP ADDRESS:   " + Global.IPAddress);
-                Console.WriteLine("SERVER PORT:  " + Global.Port);
+                Console.WriteLine("CHAT PORT:  " + Global.Port);
                 //MSConnection.Open();
                 while (true)
                 {
@@ -124,6 +124,9 @@ namespace Server
         }
         public static void Broadcast(string msg, string uName, bool flag)
         {
+            //Docs https://msdn.microsoft.com/pt-br/library/system.threading.mutex(v=vs.110).aspx
+            // Wait until it is safe to enter.
+            Global.mutex.WaitOne();
             foreach (DictionaryEntry Item in Global.clientsList)
             {
                 TcpClient broadcastSocket;
@@ -142,8 +145,9 @@ namespace Server
 
                 broadcastStream.Write(broadcastBytes, 0, broadcastBytes.Length);
                 broadcastStream.Flush();
-
             }
+            // Release the Mutex.
+            Global.mutex.ReleaseMutex();
         }
         public static void ServerMessage(string msg)
         {
@@ -157,7 +161,6 @@ namespace Server
 
                 broadcastStream.Write(broadcastBytes, 0, broadcastBytes.Length);
                 broadcastStream.Flush();
-
             }
         }
         public static void PersonalMessage(string From, string To, string msg)
@@ -167,12 +170,14 @@ namespace Server
                 string response = To + " is not connected.";
                 TcpClient origin;
                 origin = (TcpClient)Global.clientsList[From];
+                Global.mutex.WaitOne(300);
                 NetworkStream originStream = origin.GetStream();
                 Byte[] message = null;
                 message = Encoding.UTF8.GetBytes(response);
 
                 originStream.Write(message, 0, message.Length);
                 originStream.Flush();
+                Global.mutex.ReleaseMutex();
             }
             else
             {
@@ -182,25 +187,28 @@ namespace Server
                     {
                         TcpClient destiny;
                         destiny = (TcpClient)Item.Value;
+                        Global.mutex.WaitOne(300);
                         NetworkStream destinyStream = destiny.GetStream();
                         Byte[] message = null;
                         message = Encoding.UTF8.GetBytes(From + ": " + msg);
 
                         destinyStream.Write(message, 0, message.Length);
                         destinyStream.Flush();
+                        Global.mutex.ReleaseMutex();
                     }
                     if (Item.Key.ToString() == From)
                     {
                         TcpClient origin;
                         origin = (TcpClient)Item.Value;
+                        Global.mutex.WaitOne(300);
                         NetworkStream originStream = origin.GetStream();
                         Byte[] message = null;
                         message = Encoding.UTF8.GetBytes("You to " + To + ": " + msg);
 
                         originStream.Write(message, 0, message.Length);
                         originStream.Flush();
+                        Global.mutex.ReleaseMutex();
                     }
-
                 }
             }
         }
